@@ -1,6 +1,10 @@
 html,
 body {
   height: 100%; /* makes sure we take all height by default.*/
+  background-image: url("garlaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
 }
 
 .header,
@@ -15,13 +19,6 @@ body {
 
 .content {
   height: 80vh; /* 80% of the viewport height*/
-}
-
-.space-bg {
-  background-image: url("/public/images/garlaxy.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  overflow: hidden;
 }
 
 .sidemenu {
@@ -119,7 +116,8 @@ body {
     Remove the bg image and put black color instead.
     We could also load a smaller image.
   */
-  .space-bg {
+  body {
+    height: 100%; /* makes sure we take all height by default.*/
     background: black;
   }
 
