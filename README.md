@@ -8,7 +8,7 @@ To run it locally:
     nvm use v16
   ```
 
-- INstall and start on your local host:
+- Install and start on your local host:
  ```sh
     npm install
     npm start
